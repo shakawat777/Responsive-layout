@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo</title>
+    <style>
+        h2{
+            color: aqua;
+        }
+        h2:hover{
+            background-color: rgb(20, 95, 161);
+        }
+        input:focus{
+            color: red;
+            /* padding-left: 20px; */
+            outline: 0;
+            border: 1px solid yellowgreen;
+        }
+        a:visited{
+            color: gray;
+        }
+        /* li:last-child{
+            color: purple;
+        } */
+        /* li:first-child{
+            background-color: chartreuse;
+        } */
+        li:nth-child(2n+1){
+            color: crimson;
+        }
+    </style>
+
+</head>
+<body>
+    <h2>I am falling a deep hole.</h2>
+    <input type="text">
+    <br>
+    <input type="text">
+    <br>
+    <input type="text">
+    <br>
+
+    <a href="https://www.google.com/">Google</a>
+    <a href="https://www.tesla.com/models">Tesla</a>
+    <ul>
+        <li>Mango</li>
+        <li>Banana</li>
+        <li>Jackfruits</li>
+        <li>Orange </li>
+        <li>Dragon</li>
+        <li>Grapes</li>
+        <li>Pineapple</li>
+        <li>Watermelon</li>
+    </ul>
+</body>
+</html>
