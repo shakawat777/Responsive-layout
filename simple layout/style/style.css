@@ -21,6 +21,7 @@
 .footer{
     grid-area: footer;
 }
+
 .container{
     display: grid;
     gap: 20px;
