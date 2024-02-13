@@ -76,27 +76,73 @@ nav li a {
     font-size: 16px;
     font-weight: 400;
 }
-.banner img{
+
+.banner img {
     margin-top: 20px;
     width: 100%;
 }
+
 /* simple responsive media queries */
 /* mobile devices */
 @media screen and (max-width:576px) {
-    header{
+    header {
         padding: 20px;
     }
-    nav{
-        flex-direction: column;
-    }   
-}
-/* medium devices or tablet */
-@media screen and (min-width:576px) and (max-width:992px) {
-    nav{
+
+    nav {
         flex-direction: column;
     }
-     header{
-        padding: 50px;
-    } 
-    
 }
+
+/* medium devices or tablet */
+@media screen and (min-width:576px) and (max-width:992px) {
+    nav {
+        flex-direction: column;
+    }
+
+    header {
+        padding: 50px;
+    }
+
+}
+
+/* Main part style */
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Times styles */
+.teams-container {
+    display: flex;
+    align-items: center;
+}
+
+.teams-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.teams-content {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.teams-content-title {
+    font-size: 3rem;
+}
+
+.teams-content-title .text1 {
+    color: #727272;
+    font-weight: 500;
+}
+.teams-content-title .text2 {
+    color: #131313;
+    font-weight: 700;
+}
+.teams-content-title .text3 {
+    color: #FF900E;
+    font-weight: 700;
+}
+
