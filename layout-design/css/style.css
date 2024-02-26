@@ -8,4 +8,15 @@
 .container{
     border: 2px solid crimson;
     width: 80%;  
+    margin: 0 auto;
+    padding: 5px;
+
+ 
+}
+.img-container{
+    border: 1px solid green;
+
+}
+.text-container{
+    border: 1px solid purple;
 }
