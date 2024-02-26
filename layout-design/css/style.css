@@ -10,13 +10,17 @@
     width: 80%;  
     margin: 0 auto;
     padding: 5px;
+    display: flex;
+    justify-content: space-between;
 
  
 }
 .img-container{
     border: 1px solid green;
+    width: 48%;
 
 }
 .text-container{
     border: 1px solid purple;
+    width: 48%;
 }
