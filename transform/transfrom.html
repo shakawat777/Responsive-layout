@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+        .container,.item{
+            width: 200px;
+            height: 200px;
+        }
+        .container{
+            border: 2px solid aqua;
+            background-color: blueviolet;
+        }
+        .item{
+            border: 2px solid crimson;
+            background-color: palegoldenrod;
+            transform: rotate(0.80, 0.75);
+            /* transform: rotate(-45deg); */
+        }
+    </style>
+</head>
+<body>
+    <!-- .container*3{Container $}>.item{inner $} -->
+    <div class="container">
+        <div class="item">inner 1</div>
+    </div>
+    <div class="container">
+        <div class="item">inner 2</div>
+    </div>
+    <div class="container">
+        <div class="item">inner 3</div>
+    </div>
+</body>
+</html>
