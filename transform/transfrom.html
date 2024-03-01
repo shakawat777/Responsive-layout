@@ -16,12 +16,18 @@
         .item{
             border: 2px solid crimson;
             background-color: palegoldenrod;
-            transform: rotate(0.80, 0.75);
-            /* transform: rotate(-45deg); */
+            /* transform: scale(0.45,0.5); */
+            /* transform: rotate(-45deg);  */
+            /* transform: scale(0.5) rotate(45deg) translateX(100px);
+             */
+        }
+        .item:hover{
+            transform: rotate(45deg) translateY(100px);
         }
     </style>
 </head>
 <body>
+    <h2>Explore transform and translation</h2>
     <!-- .container*3{Container $}>.item{inner $} -->
     <div class="container">
         <div class="item">inner 1</div>
