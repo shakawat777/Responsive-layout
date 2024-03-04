@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cricket bat</title>
+    <style>
+        img{
+            height: 400px;
+            top: 50px;
+            position: relative;
+            
+        }
+        .field{
+            border: 2px solid cornflowerblue;
+        }
+
+        .ball{
+            height: 50px;
+            width: 50px;
+            background-color: red;
+            border-radius: 50%;
+            position: relative;
+            left: 400px;
+            transition: transform 1s ease-out 0.2s;
+        }
+        .bat{
+            transition: transform 0.2s;
+        }
+        .field:hover .ball{
+            transform: translate(600px, -500px);
+        }
+        .field:hover .bat{
+            transform: rotate(-60deg);
+            transform-origin: top right;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="field">
+        <img src="images/traced-bate.jpg" alt="" class="bat">
+        <div class="ball"></div>
+    </div>
+</body>
+</html>
