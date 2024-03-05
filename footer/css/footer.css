@@ -37,3 +37,17 @@
     background-color: yellow;
     margin-top: 5px;
 }
+.lower-footer{
+    background-color: grey;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+ .lower-footer a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: black;
+    
+} 
