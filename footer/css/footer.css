@@ -9,10 +9,17 @@
     background-color: black;
     color: #fff;
     padding: 20px;
+    height: 200px;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
 .upper-footer>div{
     border: 1px solid green;
     width: 24%;
     
+}
+.upper-footer>div>div.fa-brands{
+    font-size: 30px;
+    margin-right: 10px;
 }
