@@ -1,0 +1,18 @@
+ *{
+    margin: 0;
+    padding: 0;
+} 
+.upper-footer{
+    border: 2px solid crimson;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    
+}
+.upper-footer>div{
+    border: 1px solid green;
+    width: 24%;
+    
+}
