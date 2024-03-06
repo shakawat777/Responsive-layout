@@ -3,21 +3,22 @@
     padding: 0;
 } 
 .upper-footer{
-    border: 2px solid crimson;
+    
     display: flex;
     justify-content: space-between;
     background-color: black;
     color: #fff;
     padding: 20px;
-    height: 200px;
+    /* height: 200px; */
     align-items: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+    flex-wrap: wrap;
 }
 .upper-footer>div{
-    border: 1px solid green;
+   
     width: 24%;
-    
+    flex-basis: 200px; 
+    /* min-width: 200px; */
 }
 .upper-footer>div>div.fa-brands{
     font-size: 30px;
@@ -50,4 +51,7 @@
     margin-left: 10px;
     color: black;
     
-} 
+}
+.copy{
+    margin-right: 10px;
+}
